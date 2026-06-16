@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Peddy - Pet Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- daisy khala -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- style file -->
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .lato-regular {
+        font-family: "Lato", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body class="lato-regular w-11/12 mx-auto">
+    <!-- header -->
+    <header>
+      <!-- nav bar -->
+      <nav class="flex justify-between items-center sticky">
+        <!-- logo -->
+        <div class="logo flex items-center gap-1">
+          <img class="w-[50px]" src="images/logo.webp" alt="" />
+          <h3 class="font-black text-[32px]">Peddy</h3>
+        </div>
+        <!-- menu bar -->
+        <div class="menu">
+          <ul class="flex justify-between items-center gap-3">
+            <li class="menu-bar text-gray-500">Home</li>
+            <li class="menu-bar text-gray-500">Shop</li>
+            <li class="menu-bar text-gray-500">Contact</li>
+          </ul>
+        </div>
+        <!-- Avatar -->
+        <div class="avatar avatar-placeholder">
+          <div class="text-neutral-content w-12 rounded-full">
+            <button class="btn avater">
+              <img src="images/icons8-avatar-64.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero -->
+      <div class="hero -mt-60">
+        <div class="hero-div">
+          <!-- text -->
+          <div class="text text-center space-y-5">
+            <h2 class="text-2xl font-bold text-gray-600">
+              Bringing Families Together ❤️‍🔥
+            </h2>
+            <h2 class="font-black text-4xl lg:text-7xl">
+              Your Path to Adoption <br />
+              Starts Here
+            </h2>
+            <p class="text-gray-500">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking <br />
+              at its layout. The point of using Lorem Ipsum is that it has a.
+            </p>
+            <!-- btn -->
+            <button id="view-more" class="btn bg-[#0E7A81] text-white">
+              <a href="#adopt">View more</a>
+            </button>
+          </div>
+          <br />
+        </div>
+        <!-- img -->
+        <div class="img h-[250px] lg:h-[350px] mt-[650px] flex justify-center">
+          <img src="images/pet.webp" class="w-full" alt="" />
+        </div>
+      </div>
+    </header>
+
+    <!-- main -->
+    <main id="adopt">
+      <!-- adopt friend -->
+      <div>
+        <div class="adopt text-center">
+          <h2 class="text-[40px] font-black">Adopt Best Friend</h2>
+          <p class="text-gray-500">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout. The point
+            of
+            <br />
+            using Lorem Ipsum is that it has a.
+          </p>
+        </div>
+        <!-- img center -->
+        <div id="imges"></div>
+      </div>
+    </main>
+
+    <!-- script -->
+    <script src="pet.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@media (max-width: 900px) {
+  .menu .avater {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: gray;
+    flex-direction: column;
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: start;
+    padding: 10%;
+    width: 50vw;
+    height: 50vh;
+  }
+}
