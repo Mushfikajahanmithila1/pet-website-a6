@@ -1,9 +1,9 @@
 // load pets
 function loadPets() {
   fetch("https://openapi.programming-hero.com/api/peddy/pets")
-    .then((res) => res.json)
+    .then((res) => res.json())
     .then((data) => loadPetsbtn(data))
-    .catch((err) => console.log(error));
+    .catch((err) => console.log("error"));
 }
 // loadpets
 function loadPetsbtn(data) {
@@ -12,3 +12,4 @@ function loadPetsbtn(data) {
     console.log(item.pet);
   });
 }
+loadPets();
