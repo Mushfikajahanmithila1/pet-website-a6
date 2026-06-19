@@ -9,7 +9,7 @@ function loadPets() {
 function loadPetsbtn(data) {
   const imgCenter = document.getElementById("imges");
   data.forEach((item) => {
-    console.log(item.pet);
+    console.log(item.pets);
   });
 }
 loadPets();
